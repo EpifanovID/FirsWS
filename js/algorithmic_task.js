@@ -5,16 +5,16 @@ function solve() {
     let z = parseFloat(elementZ.innerText);
     console.log(x, y, z)
     if ((y + z <= x) || (x + z <= y) || (x + y <= z)) {
-        result = "Треугольник с сторонами X, Y, C не существует.";
+        result = "Треугольник с сторонами X, Y, Z не существует.";
          document.getElementById("result").innerText =  result;
         return;
     }
     if ((x * x + y * y == z * z) || (y * y + z * z == x * x) || (z * z + x * x == y * y)) {
-        result = "Треугольник с сторонами X, Y, C существует и он прямоугольний.";
+        result = "Треугольник с сторонами X, Y, Z существует и он прямоугольний.";
          document.getElementById("result").innerText =  result;
     }
     else {
-        result = "Треугольник с сторонами X, Y, C существует, но он не прямоугольний.";
+        result = "Треугольник с сторонами X, Y, Z существует, но он не прямоугольний.";
          document.getElementById("result").innerText =  result;
     }
 }
