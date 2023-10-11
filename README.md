@@ -1,2 +1,2 @@
 # FirsWebSite
-### https://epifanovid.github.io/FirsWebSite/index.html
+### https://epifanovid.github.io/FirstWebSite/index.html
