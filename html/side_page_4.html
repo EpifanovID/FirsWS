@@ -52,15 +52,30 @@
                 <input name="q" type="hidden" value="search">
                 <input name="formulation" type="hidden" value="Даны вещественные числа: X, Y , Z. Определить, существует ли треугольник с такими длинами сторон
                 и, если существует, будет ли он прямоугольным?">
-                <ul>
-                    <li>a: <input id="x" name="x" type="number" value=3></li>
-                    <li>b: <input id="y" name="y" type="number" value=4></li>
-                    <li>c: <input id="z" name="z" type="number" value=5></li>
-                    <li>результат решения: <input name="result" value=""></li>
-                    <li><input id="solve" type="button" value="Отправить"></li>
-                </ul>
+                <tr>
+                    <td>
+                        <form action="https://www.bing.com/search?" name="UserEnter" target="_blank">
+                            <input type="hidden" name="q" value="search"></p>
+                            <p><b>Даны вещественные числа: X, Y , Z. Определить, существует ли треугольник с такими
+                                длинами
+                                сторон
+                                и, если существует, будет ли он прямоугольным?</b></p>
+                            <p>Значение X: <input id = 'x'type="number" name="x" size=20 value=3>
+                            </p>
+                            <p>Значение y: <input id = 'y' type="number" name="y" size=20 value=4>
+                            </p>
+                            <p>Значение z: <input id = 'z' type="number" name="z" size=20 value=5>
+                            </p>
+
+                            <p id="solve">Решить</p>
+                            <p>Результат: <span id="result"></span></p>
+                            <p><input type="Submit" name="Submit" value="Отправить"></p>
+                        </form>
+                    </td>
+
+                </tr>
+                <tr>
             </form>
-            <p id="result">Результаты вычислений: </p>
             <script src="../js/description_of_the_algorithmic_task.js"></script>
 
 
