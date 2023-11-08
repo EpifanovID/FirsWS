@@ -24,11 +24,15 @@
                 <li><a href="#Глава 1" target="_self" title="Ссылка на главу 1 на текущем сайте"> Глава 1</a></li>
                 <li><a href="#Глава 2" target="_self" title="Ссылка на главу 2 на текущем сайте"> Глава 2</a></li>
                 <li><a href="#Глава 3" target="_self" title="Ссылка на главу 3 на текущем сайте"> Глава 3</a></li>
+                <li><a href="#Глава 4" target="_self" title="Ссылка на главу 4 на текущем сайте"> Глава 4</a></li>
                 <li>
                     <a href="./side_page_1.html" target="_blank" title="Ссылка на блок дополнительных задач">
                         Дополнительные задачи</a>
                 </li>
                 <li><a href="#Вид спорта" target="_self"><img src="../images/Sport_1_for_FWS.jpg" width="50"></a></li>
+                <li><a href="https://ru.wikipedia.org/wiki/Спорт" target="_self" title="Дополнительный источник">
+                    Дополнительный источник</a></li>
+
             </ul>
         </td>
     </tr>
@@ -52,18 +56,38 @@
             </p>
             <h3 id="Глава 2">Глава 2</h3>
             <h4>История спорта</h4>
-            <p>
-                В древнне время ...
-            </p>
-            <p>
-                В средние века ...
-            </p>
-            <p>
-                В новое время ...
-            </p>
+
+            <ol>
+                <li>В древнне время ...</li>
+                <li>В средние века ...</li>
+                <li>В новое время ...</li>
+            </ol>
             <h3 id="Глава 3">Глава 3</h3>
             <h4>Виды спорта</h4>
-            <table align="center" border=2 width="1300">
+            <p>Существую слудующие виды спорта: </p>
+            <ul>
+                <li>Командные</li>
+                <li>Индивидуальные</li>
+            </ul>
+
+            <p>Далее приведен список с олимпийскими и не олимпийскими видами спорта:</p>
+
+            <ul>
+                <li>Олимпийский</li>
+                <ul>
+                    <li>Футбол</li>
+                    <li>Баскетбол</li>
+                    <li>Хоккей</li>
+                </ul>
+                <li>Не олимпийский</li>
+                <ul>
+                    <li>Бокс</li>
+                    <li>Ушу</li>
+                    <li>Тхэквандо</li>
+                </ul>
+            </ul>
+
+            <table align="center" border=2 width="1300" background="../images/Table_background.jpg">
                 <tr>
                     <td width="325" id="Вид спорта">Вид спорта</td>
                     <td width="325">Фото</td>
@@ -98,6 +122,52 @@
                     <td align="center">1 780 000</td>
                 </tr>
             </table>
+
+            <p>Далее представлен лучший вид спорта по мнению автора сайта</p>
+            <a href="./side_page_5.html" target="_blank"><img src="../images/Question_mark.jpg" width="50"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <h3 id="Глава 4">Глава 4</h3>
+            <h4>Пожалуйста, оставте информацию о себe:</h4>
+            <form action="https://www.bing.com/search?" name="UserEnter" target="_blank">
+                <input type="hidden" name="q" value="search"></p>
+                <p>Фамилия: <input type="Text" name="second_name" size=20 value="Иванов"></p>
+                <p>Имя: <input type="Text" name="first_name" size=20 value="Иван"></p>
+                <p>Отчество: <input type="Text" name="third_name" size=20 value="Иванович"></p>
+                <p>Мобильный телефон: <input type="Text" name="phone_namber" size=20 value="+77777777777"></p>
+                <p>Электронная почта: <input type="Text" name="Email" size=20 value="IvanovIvan@mail.ru"></p>
+                <p>Дата отправки сообщения: <input type="date" name="user_date" value='2023-11-08'></p>
+                <p><input type="Submit" name="Submit_1" value="Отправить"></p>
+            </form>
+
+            <h4>Пожалуйста, пройдите опрос:</h4>
+            <form action="https://www.bing.com/search?" name="UserEnter" target="_blank">
+                <input type="hidden" name="q" value="search"></p>
+                <p>Каким спортом вы занимаетесь? <input type="Text" name="Kind_of_sport" size=20 value="Дзюдо"></p>
+                <p>Сколько лет вы им занимаетесь? <input type="Text" name="Number_of_years" size=20 value=8></p>
+                <p>Ваш вид спорта является олимпийским?
+                    <input type="Radio" name="Olympic" value="Moscow" checked>Да
+                    <input type="Radio" name="Olympic" value="Nizhny">Нет
+                </p>
+                <p>
+                    Что вы любите в своем виде спорта?
+                    <input type="checkbox" name="Like" value="Эмоции"> Эмоции
+                    <input type="checkbox" name="Like" value="Эмоции"> Комьюните
+                    <input type="checkbox" name="Like" value="Улучшение здоровья"> Улучшение здоровья
+                    <input type="checkbox" name="Like" value="Ничего"> Ничего
+                </p>
+                <p>
+                    Введите дату отпраки опроса:
+                    <input type="date" name="User_date" value='2023-11-08'>
+                </p>
+                <p>
+                    Введите пароль:
+                    <input type="password" name="Password" value="1234567890">
+                </p>
+                <p><input type="Submit" name="Submit_2" value="Отправить"></p>
+            </form>
             <p align="right">
                 <a href="#Основная часть" target="_self" title="Переход на основную часть">К началу страницы</a>
             </p>
